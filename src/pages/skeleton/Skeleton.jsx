@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skeleton = ({count}) => {
   return (
-    <div className='container mx-auto grid grid-cols-4 gap-2'>
+    <div className='container mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-2'>
        {
         Array(count).fill("").map((__, index) => (
             <div key={index}>
