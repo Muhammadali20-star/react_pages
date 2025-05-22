@@ -7,11 +7,11 @@ const RecipeHeader = () => {
           <div className="container mx-auto flex justify-between items-center px-4">
             <h1 className="text-xl font-bold text-white">MyRecipe</h1>
             <nav className="space-x-6 text-white font-semibold">
-              <NavLink to="/" className="hover:underline hover:text-gray-900 transition">Home</NavLink>
+              <NavLink to="/" className="hover:underline hover:text-gray-900">Home</NavLink>
               <NavLink to="/recipe" className="underline decoration-4 decoration-white">Recipes</NavLink>
-              <NavLink to="/posts" className="hover:underline hover:text-gray-900 transition">Posts</NavLink>
-              <NavLink to="/users" className="hover:underline hover:text-gray-900 transition">Users</NavLink>
-              <NavLink to="/login" className="hover:underline hover:text-gray-900 transition">Login</NavLink>
+              <NavLink to="/posts" className="hover:underline hover:text-gray-900">Posts</NavLink>
+              <NavLink to="/users" className="hover:underline hover:text-gray-900">Users</NavLink>
+              <NavLink to="/login" className="hover:underline hover:text-gray-900">Login</NavLink>
             </nav>
           </div>
     </header>
