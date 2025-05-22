@@ -37,6 +37,11 @@ const Home = () => {
                    <h3 className='p-2'><span className='font-bold'>title:</span> {product.title}</h3>
                    <h3 className='p-2'><span className='font-bold'>price:</span> {product.price}</h3>
                    <h3 className='p-2'><span className='font-bold'>category:</span> {product.category}</h3>
+                   <h3 className='p-2'><span className='font-bold'>brand:</span> {product.brand}</h3>
+                   <h3 className='p-2'><span className='font-bold'>createdAt:</span> {product.meta.createdAt}</h3>
+                   <h3 className='p-2'><span className='font-bold'>updatedAt:</span> {product.meta.updatedAt}</h3>
+                   <h3 className='p-2'><span className='font-bold'>barcode:</span> {product.meta.barcode}</h3>
+                   <img loading='lazy' className='w-30 h-30 mx-auto mb-4' src={product.meta.qrCode} alt="" />
                 </div>
             ))
         }

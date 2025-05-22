@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const PostsHeader = () => {
   return (
@@ -7,11 +7,11 @@ const PostsHeader = () => {
               <div className="container mx-auto px-4 flex justify-between items-center">
                 <h1 className="text-xl font-bold">MyPosts</h1>
                 <nav className="flex gap-4">
-                  <Link to="/" className="hover:underline">Home</Link>
-                  <Link to="/recipe" className="hover:underline">Recipe</Link>
-                  <Link to="/posts" className="underline">Posts</Link>
-                  <Link to="/users" className="hover:underline">Users</Link>
-                  <Link to="/login" className="hover:underline">Login</Link>
+                  <NavLink to="/" className="hover:underline">Home</NavLink>
+                  <NavLink to="/recipe" className="hover:underline">Recipe</NavLink>
+                  <NavLink to="/posts" className="underline">Posts</NavLink>
+                  <NavLink to="/users" className="hover:underline">Users</NavLink>
+                  <NavLink to="/login" className="hover:underline">Login</NavLink>
                 </nav>
               </div>
         </header>
