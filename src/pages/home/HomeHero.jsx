@@ -11,4 +11,4 @@ const HomeHero = () => {
   )
 }
 
-export default HomeHero
+export default React.memo(HomeHero)

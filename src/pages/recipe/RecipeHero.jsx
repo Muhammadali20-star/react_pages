@@ -16,4 +16,4 @@ const RecipeHero = () => {
   )
 }
 
-export default RecipeHero
+export default React.memo(RecipeHero)

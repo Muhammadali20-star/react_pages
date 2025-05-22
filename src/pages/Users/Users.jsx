@@ -58,4 +58,4 @@ const Users = () => {
   )
 }
 
-export default Users
+export default React.memo(Users)

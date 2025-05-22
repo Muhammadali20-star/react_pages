@@ -18,4 +18,4 @@ const HomeHeader = () => {
   )
 }
 
-export default HomeHeader
+export default React.memo(HomeHeader)

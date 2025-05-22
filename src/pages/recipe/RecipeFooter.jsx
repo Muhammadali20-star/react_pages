@@ -19,4 +19,4 @@ const RecipeFooter = () => {
   )
 }
 
-export default RecipeFooter
+export default React.memo(RecipeFooter)

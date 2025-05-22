@@ -49,4 +49,4 @@ const UserFooter = () => {
   )
 }
 
-export default UserFooter
+export default React.memo(UserFooter)

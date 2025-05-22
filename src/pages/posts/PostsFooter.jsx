@@ -33,4 +33,4 @@ const PostsFooter = () => {
   )
 }
 
-export default PostsFooter
+export default React.memo(PostsFooter)

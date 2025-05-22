@@ -18,4 +18,4 @@ const RecipeHeader = () => {
   )
 }
 
-export default RecipeHeader
+export default React.memo(RecipeHeader)

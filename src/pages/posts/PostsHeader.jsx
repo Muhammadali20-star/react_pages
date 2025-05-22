@@ -18,4 +18,4 @@ const PostsHeader = () => {
   )
 }
 
-export default PostsHeader
+export default React.memo(PostsHeader)

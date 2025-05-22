@@ -39,4 +39,4 @@ const HomeFooter = () => {
   );
 };
 
-export default HomeFooter;
+export default React.memo(HomeFooter)

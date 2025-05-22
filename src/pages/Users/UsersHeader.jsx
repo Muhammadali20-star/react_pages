@@ -16,4 +16,4 @@ const UsersHeader = () => {
   )
 }
 
-export default UsersHeader
+export default React.memo(UsersHeader)

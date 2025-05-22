@@ -13,4 +13,4 @@ const PostsHero = () => {
   )
 }
 
-export default PostsHero
+export default React.memo(PostsHero)
