@@ -9,9 +9,7 @@ const UserFooter = () => {
         
         <div>
           <h3 className="text-xl font-semibold mb-4">MyUsere</h3>
-          <p className="text-sm text-gray-400">
-            Empowering users with real data and smart tools. Built with love and React ❤️
-          </p>
+          <p className="text-sm text-gray-400">Empowering users with real data and smart tools. Built with love and React ❤️</p>
         </div>
 
         
